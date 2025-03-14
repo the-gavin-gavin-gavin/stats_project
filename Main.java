@@ -42,7 +42,9 @@ public class Main
         return meanNum;
     }
 
-    // 
+    /* This static method sorts the provided array from least to greatest using bubblesort,
+       then either returns the "middle" number in the array, or returns the average of the
+       two "middle" numbers due to an even amount of elements in the array */
     public static double median(int [] arr)
     {
         for (int i = 0; i<arr.length-2; i++)
@@ -77,7 +79,8 @@ public class Main
         }
     }
 
-    //
+    /* This static method pushes out print statements along with the returned values of
+       "min", "max", "mean", and "median" */
     public static void main (String [] args)
     {
         int [] s1 = {37,97,25,38,73,94,83,47,36,46,8,17,45,11};
